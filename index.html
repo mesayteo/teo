@@ -9,9 +9,11 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/2.2.4/assets/css/emojione.min.css"/>
        
     </head>
     <body>
@@ -20,11 +22,77 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+		<main>
+			
+		
+			<div class="ui main active fluid card">
+				<div class="content">
+				   
+				    <img class="ui avatar image" src="img/avatar.jpg"> Teo 
+				  </div>
+			 <div class="image">
+			 	<div class="ui embed" data-url="https://www.youtube.com/embed/SGHaxahzvoQ" data-placeholder="" autoplay="false"></div>
+			 </div>
+			 <div class="content">
+			   <a class="header toggle">@mesayteo</a>
+			   <div class="meta">
+			     <span class="date">Lovable narcissist, amateur genius.</span>
+			   </div>
+			   <div class="description">
+			     I make <a href="">music</a> to cope with my existential crisis. I also have a <a href="">vlog</a> counting down the days until I die. 
+			   </div>
+			  </div>
+			 <div class="extra content">
+				<div class="ui two buttons">
+					<a class="ui basic black button">Music</a>
+					<a class="ui basic black button">Vlog</a>
+				</div>
+			 </div>
+			</div>
 
-		<script src="semantic/dist/semantic.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+			<div class="ui social fluid card">
+			  <div class="content">
+			    <a class="header toggle">Project Timeline</a>
+			  </div>
+			  <div class="content">
+			    <h4 class="ui sub header">Activity</h4>
+			    <div class="ui small feed">
+			      <div class="event">
+			        <div class="content">
+			          <div class="summary">
+			             <a>Elliot Fu</a> added <a>Jenny Hess</a> to the project
+			          </div>
+			        </div>
+			      </div>
+			      <div class="event">
+			        <div class="content">
+			          <div class="summary">
+			             <a>Stevie Feliciano</a> was added as an <a>Administrator</a>
+			          </div>
+			        </div>
+			      </div>
+			      <div class="event">
+			        <div class="content">
+			          <div class="summary">
+			             <a>Helen Troy</a> added two pictures
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="extra content">
+			    <button class="ui button">Join Project</button>
+			  </div>
+			</div>
+		</main>
+
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/emojione/2.2.4/lib/js/emojione.min.js"></script>
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> -->
+        <script src="semantic/dist/semantic.min.js"></script>
+
+        <script src="custom.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -35,8 +103,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-        <script>
-        	
-        </script>
+       
     </body>
 </html>
