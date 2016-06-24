@@ -23,7 +23,7 @@ function toggle_cards(){
 
 
 // on @mesayteo click
-	$('a.toggle').click(function(event){
+	$('.toggle').click(function(event){
 		
 		event.preventDefault();
 		// $(this).children('i').toggleClass('blue');
