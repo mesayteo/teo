@@ -29,3 +29,14 @@ function toggle_cards(){
 		// $(this).children('i').toggleClass('blue');
 		toggle_cards();
 	}); // end playlist button
+
+
+// initialize modal
+// 
+$('.ui.modal').modal();
+
+// on music click open modal
+$('a.music-modal').click(function(event){
+	event.preventDefault();
+	$('.ui.modal').modal('show');
+}); // end on music click
